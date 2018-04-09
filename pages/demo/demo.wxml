@@ -1,0 +1,13 @@
+<!--pages/demo/demo.wxml-->
+<include src="../templates/templates" />
+
+<button type='default' bindtap='clickTap'>默认按钮</button>
+<button type='primary' size='mini'>成功</button>
+<button type='warn' size='mini'>警告</button>
+<button type='warn' size='mini' open-type='share'>分享</button>
+<button type='warn' size='mini' open-type='contact'>客服会话</button>
+<button type='warn' size='mini' open-type='getUserInfo'>获取用户信息</button>
+<scroll-view  scroll-y style="height: 500rpx;">
+    <view wx:for="{{news}}" wx:key="{{index}}">{{index}}+{{item}}</view>
+</scroll-view>
+<navigator src=""></navigator>

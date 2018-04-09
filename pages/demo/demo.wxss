@@ -1,0 +1,9 @@
+/* pages/demo/demo.wxss */
+/* @import "../templates/templates.wxss" */
+.text{
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  background: #ccc;
+  font-size: 24rpx;
+}

@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/demo/demo",
+    "pages/templates/templates",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "position":"top",
+    "list": [{
+        "pagePath": "pages/demo/demo",
+        "text": "demo"
+      },{
+        "pagePath": "pages/index/index",
+        "text": "idnex"
+      }]
+  }
+  
+}
